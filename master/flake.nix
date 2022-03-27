@@ -11,6 +11,7 @@
   inputs.src-genny-master.ref   = "refs/heads/master";
   inputs.src-genny-master.owner = "treeform";
   inputs.src-genny-master.repo  = "genny";
+  inputs.src-genny-master.dir   = "";
   inputs.src-genny-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
